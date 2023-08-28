@@ -1,14 +1,12 @@
 # DevOps_Assignment
 DevOps for Terraform and Ansible
-# prerequiste:
+# prerequisite:
 1. Install AWS CLI to excute the CLI commands to fetch the AWS user id, region and secret with provididng any sensitive data over the repos
 2. Create a User and keep the access key and secret key to make use of them in our step 1
 
 # Explainations: 
 
-main.tf -- > 
-
-## 1. Here we will create all the below components via IAC code
+## 1. Here we will create all the below components via IAC code(main.tf )
 		a. vpc
 		b. Subnets
 		c. Routing tables 
