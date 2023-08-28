@@ -20,4 +20,7 @@ main.tf -- >
 		a. all varibles used on the main.tf has been parametrised to .tfvar file 
 ## 3. Output File : 
 		we have displayed the server ID when we exeute terraform plan or apply for the users
-		
+## 4. State file : 
+		maintaining the state file on S3 to work with multiple teams in order to fetch the latest changes.
+  <img width="609" alt="image" src="https://github.com/rpasup/DevOps_Assignment/assets/17158135/14bb5d8c-a3f9-416e-8445-1d87c415eeb9">
+
